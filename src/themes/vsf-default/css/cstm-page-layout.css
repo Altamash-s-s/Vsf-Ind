@@ -1,0 +1,119 @@
+
+
+.cstm-page-layout{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 60px;
+}
+.hd-img{
+    width: 100%;
+    margin-top: 150px;
+}
+.main-section {
+    margin-top: 20px;
+}
+h2.hd-heading {
+    color: #302A2A;
+    font-size: 26px;
+    font-weight: 700;
+}
+.content-section {
+    float: left;
+}
+.cr-head{
+    margin-top: 20px;
+}
+.inside-hd {
+    margin-top: 45px;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.inside-para {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.para-txt {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.wl-msg {
+    margin-top: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+
+    .cstm-page-layout {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1536px) {
+}
+
+@media only screen and (min-device-width: 1537px) and (max-device-width: 1600px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .cstm-page-layout{
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .cstm-page-layout {
+        padding: 0 30px;
+    }
+    .hd-img{
+        margin-top: 115px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .cstm-page-layout {
+        padding: 0 20px;
+    }
+    .hd-img{
+        margin-top: 100px;
+    }
+    .wl-msg {
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .inside-para {
+        line-height: 25px;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .hd-heading{
+        font-size: 23px !important;
+    }
+    .inside-hd{
+        font-size: 20px !important;
+        line-height: 28px !important;
+
+    }
+    .para-txt {
+        font-size: 18px !important;
+    }
+}

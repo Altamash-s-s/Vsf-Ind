@@ -1,0 +1,168 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+
+  label {
+    display: none;
+  }
+  input[type="date"] {
+    -webkit-appearance: none; /* Remove default styling on Safari */
+    appearance: none;
+    padding: 0.5rem; /* Adjust padding as needed */
+    /* Add any other styling you need */
+  }
+  input[type='date']::before {
+    content: attr(placeholder);
+    text-transform: uppercase;
+    margin-right: 9px;
+    width: fit-content;
+  }
+  input[type='date']::placeholder{
+    color: #302A2A;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+  }
+  input.image_upload {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  select {
+    color: #302A2A;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    padding-left: 0px;
+  }
+  .cstm-input {
+    border: none;
+    border-bottom: 1px solid #0000003b;
+    font-size: 16px;
+    color: #302A2A;
+    font-family: 'Nunito';
+}
+.cstm-input:focus-visible , select:focus-visible , input:focus-visible{
+  outline: none;
+  border-radius: 0px;
+}
+.textarea_label {
+  display: block;
+  font-family: 'Nunito';
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+input::placeholder  , textarea::placeholder{
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+  font-size: 16px;
+}
+  input,
+  select,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #0000003b;
+    border-radius:0;
+    margin: 16px 0 !important;
+    padding: 0 8px !important;
+    height: 40px !important;
+    font-size: 16px;
+    color: #302A2A;
+    font-family: 'Nunito';
+  }
+
+  .submit {
+    background-color: #444444;
+    color: white;
+    padding: 11px 50px;
+    border: none;
+    border-radius:0px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .submit:hover {
+    background-color: #252525;
+  }
+  .thumbs-img {
+    width: 50%;
+}
+  .thanks-message {
+  text-align: center;
+  animation: fadeIn 2s ease; /* Adjust animation duration as needed */
+}
+
+.thumbs-up-icon {
+  font-size: 48px; /* Adjust icon size as needed */
+  color: #4CAF50; /* Green color for the thumbs-up icon */
+}
+
+.message {
+  font-size: 28px;
+  margin-top: 5rem;
+}
+input.image_upload {
+    border: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+}
+
+
+.form_dv.apply-btn button {
+	font-size: 14px;
+}
+@media only screen and (max-width: 767px) {
+    .right-sidebar.open{
+        right: 0;
+        width: auto;
+        padding: 0 20px !important;
+    }
+    
+    .main-hd.main-hd{
+        margin-left: 0;
+        margin-top: 0;
+        font-family: 'PoppinsRegular';
+    }
+    .popup_ttl_dv h2 {
+      font-size: 32px;
+  }
+
+    .inside-hd {
+        margin-top: 20px;
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+    .close_btn {
+      right:8px;
+    }
+        .main-hd.main-hd {
+          padding-left: 0px !important;
+      }
+      .forms_detail {
+        padding: 15px 20px !important;
+    }
+    input[type='date']::before {
+      width: 70% !important;
+    }
+    }
