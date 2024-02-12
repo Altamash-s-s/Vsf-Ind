@@ -855,7 +855,7 @@ let questions = [
     type: 'input',
     name: 'm2_api_consumer_key',
     message: 'Please provide your consumer key',
-    default: 'byv3730rhoulpopcq64don8ukb8lf2gq',
+    default: 'kraazxs0p9t0h7wtf8y5drjym1axd3nw',
     when: function (answers) {
       return answers.m2_api_oauth2 === true
     }
@@ -864,7 +864,7 @@ let questions = [
     type: 'input',
     name: 'm2_api_consumer_secret',
     message: 'Please provide your consumer secret',
-    default: 'u9q4fcobv7vfx9td80oupa6uhexc27rb',
+    default: '9evn06mx0tkpl208w2bu143yeiv4funw',
     when: function (answers) {
       return answers.m2_api_oauth2 === true
     }
@@ -873,7 +873,7 @@ let questions = [
     type: 'input',
     name: 'm2_api_access_token',
     message: 'Please provide your access token',
-    default: '040xx3qy7s0j28o3q0exrfop579cy20m',
+    default: '3ecq5c84l37qr0yzzroc1fn9rcf7euhn',
     when: function (answers) {
       return answers.m2_api_oauth2 === true
     }
@@ -882,7 +882,7 @@ let questions = [
     type: 'input',
     name: 'm2_api_access_token_secret',
     message: 'Please provide your access token secret',
-    default: '7qunl3p505rubmr7u1ijt7odyialnih9',
+    default: 'rogvpjs8ly1jswu974417hp344wbcc4r',
     when: function (answers) {
       return answers.m2_api_oauth2 === true
     }

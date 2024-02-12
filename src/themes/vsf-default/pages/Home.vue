@@ -45,10 +45,10 @@
 
           <!-- <video src="../assets/icons/home-video.mp4" playsinline autoplay muted loop></video> -->
           <video class="desktop_liner_video" id="banner_video" playsinline autoplay control muted loop>
-            <source src="https://magento-1168777-4085532.cloudwaysapps.com/video/oneliner_desk_video.mp4" type="video/mp4" />
+            <source src="https://magento-1208470-4281933.cloudwaysapps.com/video/oneliner_desk_video.mp4" type="video/mp4" />
           </video>
           <video class="tab_liner_video" id="banner_video" playsinline autoplay control muted loop>
-            <source src="https://magento-1168777-4085532.cloudwaysapps.com/video/oneliner_mob_video.mp4" type="video/mp4" />
+            <source src="https://magento-1208470-4281933.cloudwaysapps.com/video/oneliner_mob_video.mp4" type="video/mp4" />
           </video>
 
         </div>
@@ -91,10 +91,10 @@
         <div class="parallax-image section5">
           <!-- <video src="../assets/icons/home-video.mp4" playsinline autoplay muted loop></video> -->
           <video class="desktop_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
-            <source src="https://magento-1168777-4085532.cloudwaysapps.com/video/winter_desk_video.mp4" type="video/mp4" />
+            <source src="https://magento-1208470-4281933.cloudwaysapps.com/video/winter_desk_video.mp4" type="video/mp4" />
           </video>
           <video class="tab_wntr_video" id="banner_video1" playsinline autoplay control muted loop>
-            <source src="https://magento-1168777-4085532.cloudwaysapps.com/video/winter_mob_video.mp4" type="video/mp4" />
+            <source src="https://magento-1208470-4281933.cloudwaysapps.com/video/winter_mob_video.mp4" type="video/mp4" />
           </video>
         </div>
 

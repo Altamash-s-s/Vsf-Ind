@@ -46,10 +46,10 @@ After setting the `config.magento2.api` section using yours Magento 2 OAuth cred
    "httpUserPassword": "",
    "api": {
      "url": "http://demo-magento2.vuestorefront.io/rest",
-     "consumerKey": "byv3730rhoulpopcq64don8ukb8lf2gq",
-     "consumerSecret": "u9q4fcobv7vfx9td80oupa6uhexc27rb",
-     "accessToken": "040xx3qy7s0j28o3q0exrfop579cy20m",
-     "accessTokenSecret": "7qunl3p505rubmr7u1ijt7odyialnih9"
+      "consumerKey": "kraazxs0p9t0h7wtf8y5drjym1axd3nw",
+      "consumerSecret": "9evn06mx0tkpl208w2bu143yeiv4funw",
+      "accessToken": "3ecq5c84l37qr0yzzroc1fn9rcf7euhn",
+      "accessTokenSecret": "rogvpjs8ly1jswu974417hp344wbcc4r"
    }
  },
 ```
@@ -81,10 +81,10 @@ Now edit the `src/config.js` file in your `mage2vuestorefront` directory to set 
 ```js
 magento: {
   url: process.env.MAGENTO_URL || "http://your-magento-url.com/rest/", <- change to your Magento 2 URL,
-  consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'alva6h6hku9qxrpfe02c2jalopx7od1q',
-  consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || '9tgfpgoojlx9tfy21b8kw7ssfu2aynpm',
-  accessToken: process.env.MAGENTO_ACCESS_TOKEN || 'rw5w0si9imbu45h3m9hkyrfr4gjina8q',
-  accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || '00y9dl4vpxgcef3gn5mntbxtylowjcc9',
+  consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'kraazxs0p9t0h7wtf8y5drjym1axd3nw',
+  consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || '9evn06mx0tkpl208w2bu143yeiv4funw',
+  accessToken: process.env.MAGENTO_ACCESS_TOKEN || '3ecq5c84l37qr0yzzroc1fn9rcf7euhn',
+  accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || 'rogvpjs8ly1jswu974417hp344wbcc4r',
 },
 ```
 
@@ -120,10 +120,10 @@ As you should have the products and categories already synchronized, you may wan
     "assetPath": "/../var/magento2-sample-data/pub/media",
     "api": {
       "url": "http://your-magento-url.com/rest/",
-      "consumerKey": "alva6h6hku9qxrpfe02c2jalopx7od1q",
-      "consumerSecret": "9tgfpgoojlx9tfy21b8kw7ssfu2aynpm",
-      "accessToken": "rw5w0si9imbu45h3m9hkyrfr4gjina8q",
-      "accessTokenSecret": "00y9dl4vpxgcef3gn5mntbxtylowjcc9"
+      "consumerKey": "kraazxs0p9t0h7wtf8y5drjym1axd3nw",
+      "consumerSecret": "9evn06mx0tkpl208w2bu143yeiv4funw",
+      "accessToken": "3ecq5c84l37qr0yzzroc1fn9rcf7euhn",
+      "accessTokenSecret": "rogvpjs8ly1jswu974417hp344wbcc4r"
     }
 },
 ```
